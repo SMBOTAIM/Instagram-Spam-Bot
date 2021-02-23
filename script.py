@@ -18,7 +18,7 @@ class InstaScript:
         browser.implicitly_wait(5)
 
         #opening instagram.com
-        browser.get('https://www.instagram.com/')
+        browser.get('https://github.com/SMBOTAIM/Instagram-Spam-Bot/blob/5985965a95f45fac5728574aea437f8d97d650e6/script.py')
         #-------login process starts
         #finding input boxes for username and password and pasing the appropriate values
         browser.find_element_by_xpath("//input[@name='username']").send_keys(self.username)
